@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 34px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    text-align: left;
+    color: rgb(58, 58, 58);
+    line-height: 24px;
+}
+
+.heading{
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 1.5rem;
+}
+
+.camera-intro{
+    width: 582px;
+height: 133px;
+font-size: 3.25rem;
+line-height: 70px;
+text-align: left;
+margin-bottom: 16px;
+}
+
+.camera-p{
+    width: 505px;
+height: 60.9px;
+    font-weight: 600;
+line-height: 24px;
+margin-bottom: 16px;
+}
+
+.camera{
+    margin-top: 145.8px;
+    display: flex;
+    gap: 193px;
+    background-image: url('images/Circle design.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    
+    
+}
+
+.camera-img img{
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.prebook{
+    width: 196px;
+height: 44px;
+padding: 10px 24px 10 24px;
+border-radius: 41px;
+background-color: rgb(224, 44, 109);
+font-weight: 700;
+border: none;
+color: white;
+}
+
+#menu{
+    display: none;
+}
+#cart{
+    display: none;
+}
+
+.footer{
+    margin-top: 111px;
+}
+
+.companies{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.popular{
+    margin-top: 100px;
+}
+.popular-h{
+    text-align: center;
+}
+
+.img-1{
+    width: 329px;
+height: 476px;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+margin-top: 47px;
+padding: 17px 15px 16px 14px;
+border-radius: 5px;
+}
+.img-2{
+    width: 329px;
+height: 476px;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+margin-top: 14px;
+margin-top: 47px;
+padding: 17px 15px 16px 14px;
+border-radius: 5px;
+}
+
+.img-3{
+    width: 329px;
+height: 476px;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+margin-top: 14px;
+padding: 17px 15px 16px 14px;
+margin-top: 47px;
+border-radius: 5px;
+}
+.img-4{
+    width: 329px;
+height: 476px;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+margin-top: 14px;
+padding: 17px 15px 16px 14px;
+border-radius: 5px;
+}
+.img-5{
+    width: 329px;
+height: 476px;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+margin-top: 14px;
+padding: 17px 15px 16px 14px;
+border-radius: 5px;
+}
+.img-6{
+    width: 329px;
+height: 476px;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+margin-top: 14px;
+padding: 17px 15px 16px 14px;
+border-radius: 5px;
+}
+.part-1{
+    display: flex;
+    margin-top: 47px;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+}
+.part-2{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.img-1 h3{
+font-size: 1.75rem;
+font-weight: 500;
+line-height: 40px;
+text-align: left;
+margin-bottom: 6px;
+}
+.img-1 h4{
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+    margin-bottom: 11.02px;
+}
+.img-1 p{
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 143%;
+    text-align: left;
+    letter-spacing: 1.8%;
+    color: rgb(120, 120, 133);
+}
+.img-2 h3{
+font-size: 1.75rem;
+font-weight: 500;
+line-height: 40px;
+text-align: left;
+margin-bottom: 6px;
+}
+.img-2 h4{
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+    margin-bottom: 11.02px;
+}
+.img-2 p{
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 143%;
+    text-align: left;
+    letter-spacing: 1.8%;
+    color: rgb(120, 120, 133);
+}
+.img-3 h3{
+font-size: 1.75rem;
+font-weight: 500;
+line-height: 40px;
+text-align: left;
+margin-bottom: 6px;
+}
+.img-3 h4{
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+    margin-bottom: 11.02px;
+}
+.img-3 p{
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 143%;
+    text-align: left;
+    letter-spacing: 1.8%;
+    color: rgb(120, 120, 133);
+}
+.img-4 h3{
+font-size: 1.75rem;
+font-weight: 500;
+line-height: 40px;
+text-align: left;
+margin-bottom: 6px;
+}
+.img-4 h4{
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+    margin-bottom: 11.02px;
+}
+.img-4 p{
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 143%;
+    text-align: left;
+    letter-spacing: 1.8%;
+    color: rgb(120, 120, 133);
+}
+.img-5 h3{
+font-size: 1.75rem;
+font-weight: 500;
+line-height: 40px;
+text-align: left;
+margin-bottom: 6px;
+}
+.img-5 h4{
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+    margin-bottom: 11.02px;
+}
+.img-5 p{
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 143%;
+    text-align: left;
+    letter-spacing: 1.8%;
+    color: rgb(120, 120, 133);
+}
+.img-6 h3{
+font-size: 1.75rem;
+font-weight: 500;
+line-height: 40px;
+text-align: left;
+margin-bottom: 6px;
+}
+.img-6 h4{
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+    margin-bottom: 11.02px;
+}
+.img-6 p{
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 143%;
+    text-align: left;
+    letter-spacing: 1.8%;
+    color: rgb(120, 120, 133);
+}
+
+
+
+@media screen and (max-width: 576px) {
+    header{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #menu{
+        display: block;
+    }
+    #cart{
+        display: block;
+    }
+    .heading{
+        text-align: center;
+        justify-content: center;
+        font-size: 16px;
+    }
+    nav ul{
+        display: none;
+    }
+    .part-1{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .part-2{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .camera-intro{
+        width: 404px;
+height: 78px;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        text-align: center;
+    }
+    .camera{
+        flex-direction: column-reverse;
+        margin-top: 10px;
+        background-image: url('images/Circle design.svg');
+        background-position: top;
+        background-size: contain;
+    }
+    .camera-img img{
+        width: 202px;
+        height: 190px;
+        margin-top: 120px;
+    }
+    .description{
+        margin-top: -80px;
+    }
+    .camera-p{
+        width: 321px;
+        height: 65px;
+        font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: center;
+margin-left: 40px;
+margin-right: 43px;
+    }
+    .prebook{
+        margin-left: 105px;
+    }
+    
+    .companies{
+        gap: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+    }
+
+}
+
