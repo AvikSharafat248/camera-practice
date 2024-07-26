@@ -330,12 +330,12 @@ margin-bottom: 6px;
     .part-1{
         flex-direction: column;
         justify-content: center;
-        margin: 0 auto;
+        align-items: center;
     }
     .part-2{
         flex-direction: column;
         justify-content: center;
-        margin: 0 auto;
+        align-items: center;
     }
     .camera-intro{
         width: 404px;
@@ -377,9 +377,30 @@ margin-right: 43px;
     .companies{
         gap: 30px;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
         align-items: center;
+        justify-content: center;
     }
 
 }
 
+
+@media screen and (min-width:365px) and (max-width:411px) {
+    
+    body{
+        margin-right: 20px;
+    }
+    .part-1,.part-2{
+        /* margin: 0 auto; */
+        justify-content: center;
+        align-items: center;
+    }
+    .camera-intro{
+    text-align: center;
+    margin-right: 20px;
+    }
+    .companies{
+        margin-left: 120px;
+    }
+    
+}
