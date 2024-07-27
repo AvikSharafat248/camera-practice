@@ -493,7 +493,9 @@ margin-left: 40px;
 
 @media screen and (min-width:350px) and (max-width:411px) {
     
-    
+    header,main{
+        margin-right: 10px;
+    }
     .camera-img {
         margin-right: 50px;
         margin-left: -35px;
