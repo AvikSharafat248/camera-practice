@@ -342,6 +342,32 @@ font-weight: 700;
 color: white;
 }
 
+footer{
+    background-color: rgb(16, 16, 29);
+    height: 200px;
+}
+
+.last-footer{
+margin-top: 130px;
+text-align: center;
+padding-top: 50px;
+}
+.last-footer h3{
+    font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+color: white;
+}
+.copyright{
+    font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+width: 262px;
+height: 24px;
+margin-left: 630px;
+color:rgb(217, 219, 225);
+}
+
 
 
 @media screen and (max-width: 576px) {
@@ -391,7 +417,7 @@ height: 78px;
     .camera-img img{
         width: 202px;
         height: 190px;
-        margin-top: 120px;
+        margin-top: 110px;
     }
     .description{
         margin-top: -80px;
@@ -423,6 +449,7 @@ margin-right: 43px;
     margin-left: 20px;
     justify-content: center;
     gap: 30px;
+    margin-top: 70px;
     }
     .featured h2{
         width: 311px;
@@ -438,7 +465,7 @@ height: 72px;
         width: 329px;
 height: 88px;
 text-align: center;
-margin-bottom: 100px;
+margin-bottom: 80px;
 margin-left: 22px;
     }
     .featured-part img{
@@ -449,6 +476,16 @@ margin-left: 40px;
     .join{
         text-align: center;
         margin-left: 102px;
+        margin-bottom: 10px;
+    }
+    .copyright{
+        margin-left: 80px;
+    }
+    footer{
+        margin-top: -80px;
+    }
+    .featured-part{
+        margin-left: -5px;
     }
 }
 
@@ -456,9 +493,7 @@ margin-left: 40px;
 
 @media screen and (min-width:350px) and (max-width:411px) {
     
-    body{
-        margin-right: 20px;
-    }
+    
     .camera-img {
         margin-right: 50px;
         margin-left: -50px;
@@ -471,7 +506,7 @@ margin-left: 40px;
     }
     .prebook{
         margin-top: 30px;
-        margin-left: 65px;
+        margin-left: 80px;
     }
     .camera-p{
         padding-right: 40px;
@@ -480,7 +515,11 @@ margin-left: 40px;
     .companies{
         margin-left: 80px;
     }
-
+    .popular-h{
+        margin-bottom: -50px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
     .part-1{
         margin-left: 20px;
     }
@@ -489,11 +528,22 @@ margin-left: 40px;
     }
     .featured{
         margin-left: 10px;
+        margin-top: 50px;
     }
     .join{
-        margin-left: 95px;
+        margin-left: 100px;
+    }
+    .featured p{
+        margin-bottom: 70px;
     }
     .featured-part img{
         margin-left: 30px;
+    }
+    footer{
+    margin-top: -60px;
+
+    }
+    .copyright{
+        margin-left: 45px;
     }
 }
