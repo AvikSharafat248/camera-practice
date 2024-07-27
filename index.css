@@ -371,6 +371,7 @@ color:rgb(217, 219, 225);
 
 
 @media screen and (max-width: 576px) {
+    
     header{
         margin-left: 10px;
         margin-right: 10px;
@@ -413,6 +414,9 @@ height: 78px;
         background-image: url('images/Circle design.svg');
         background-position: top;
         background-size: contain;
+    }
+    .camera-img{
+        margin-left: -20px;
     }
     .camera-img img{
         width: 202px;
